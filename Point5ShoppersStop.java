@@ -15,7 +15,7 @@ import java.util.List;
 public class Point5ShoppersStop {
 
     @Test
-    public void testEquityPoint5() throws InterruptedException {
+    public void testShoppersStopPoint5() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "./driver/chromedriver");
 
         WebDriver driver = new ChromeDriver();
