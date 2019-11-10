@@ -13,7 +13,7 @@ import java.util.List;
 public class Point2MarketWatchWindowTest {
 
     @Test
-    public void testEquityPoint2() {
+    public void testMarketWatchWindowPoint2() {
         System.setProperty("webdriver.chrome.driver", "./driver/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.nseindia.com/");
