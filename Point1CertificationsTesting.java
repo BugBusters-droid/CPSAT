@@ -20,7 +20,7 @@ public class Point1CertificationsTesting {
     Lib lib = new Lib();
 
     @Test
-    public void testEquityPoint1() throws Exception {
+    public void testCertificationsPoint1() throws Exception {
         System.setProperty("webdriver.chrome.driver", "./driver/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("http://agiletestingalliance.org/");
