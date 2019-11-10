@@ -18,7 +18,7 @@ import java.util.List;
 public class Point6LiveMarket {
 
     @Test
-    public void testEquityPoint6() throws InterruptedException, IOException {
+    public void testLiveMarketPoint6() throws InterruptedException, IOException {
         System.setProperty("webdriver.chrome.driver", "./driver/chromedriver");
 
         WebDriver driver = new ChromeDriver();
